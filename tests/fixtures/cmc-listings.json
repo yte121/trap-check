@@ -1,0 +1,98 @@
+{
+  "status": { "error_code": 0, "error_message": null, "credit_count": 5 },
+  "data": [
+    {
+      "id": 1,
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "slug": "bitcoin",
+      "cmc_rank": 1,
+      "date_added": "2010-07-13T00:00:00.000Z",
+      "max_supply": 21000000,
+      "circulating_supply": 20110000,
+      "total_supply": 20110000,
+      "infinite_supply": false,
+      "quote": {
+        "USD": {
+          "price": 73000,
+          "volume_24h": 28800000000,
+          "market_cap": 1468030000000,
+          "fully_diluted_market_cap": 1533000000000
+        }
+      }
+    },
+    {
+      "id": 1027,
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "slug": "ethereum",
+      "cmc_rank": 2,
+      "date_added": "2015-08-07T00:00:00.000Z",
+      "max_supply": null,
+      "circulating_supply": 120700000,
+      "total_supply": 120700000,
+      "infinite_supply": true,
+      "quote": {
+        "USD": {
+          "price": 2040,
+          "volume_24h": 13200000000,
+          "market_cap": 246228000000,
+          "fully_diluted_market_cap": 246228000000
+        }
+      }
+    },
+    {
+      "id": 90001,
+      "name": "Sample Low Float",
+      "symbol": "SLF",
+      "slug": "sample-low-float",
+      "cmc_rank": 180,
+      "date_added": "2026-06-01T00:00:00.000Z",
+      "max_supply": 1000000000,
+      "circulating_supply": 80000000,
+      "total_supply": 1000000000,
+      "infinite_supply": false,
+      "quote": {
+        "USD": {
+          "price": 2.5,
+          "volume_24h": 12000000,
+          "market_cap": 200000000,
+          "fully_diluted_market_cap": 2500000000
+        }
+      }
+    },
+    {
+      "id": 90002,
+      "name": "Sample Infinite With Max",
+      "symbol": "SIWM",
+      "slug": "sample-infinite-with-max",
+      "cmc_rank": 300,
+      "date_added": "2024-01-15T00:00:00.000Z",
+      "max_supply": 5000000,
+      "circulating_supply": 4000000,
+      "total_supply": 4500000,
+      "infinite_supply": true,
+      "quote": {
+        "USD": {
+          "price": 20,
+          "volume_24h": 3000000,
+          "market_cap": 80000000,
+          "fully_diluted_market_cap": 100000000
+        }
+      }
+    },
+    {
+      "id": 90003,
+      "name": "Sample No Quote",
+      "symbol": "SNQ",
+      "slug": "sample-no-quote",
+      "cmc_rank": 900,
+      "date_added": "2025-01-15T00:00:00.000Z",
+      "max_supply": null,
+      "circulating_supply": 100,
+      "total_supply": 100,
+      "infinite_supply": false,
+      "quote": {}
+    }
+  ]
+}
